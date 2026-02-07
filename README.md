@@ -1,11 +1,29 @@
-<div align="center">
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+# Ginza Industries - Order Management Portal
 
-  <h1>Built with AI Studio</h2>
+A professional Progressive Web App (PWA) for managing and tracking orders with real-time sync to Google Sheets and Supabase.
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+## 🚀 Key Features
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+- **PWA Functionality**: Installable on Android and iOS devices.
+- **Real-time Search**: Fast lookup for customers and products across branches.
+- **Automated Sync**: One-click sync from the app directly to Google Sheets for branch approvals.
+- **Offline Drafts**: Orders are auto-saved locally so you never lose data.
+- **Order History**: 5-day retention policy for tracking recent submissions.
 
-</div>
+## 🛠️ Tech Stack
+
+- **Frontend**: React 19 + Tailwind CSS
+- **Database/Auth**: Supabase
+- **Workflow**: Google Apps Script (GAS) + Google Sheets
+- **Icons**: Lucide React
+- **PWA**: Custom Service Worker integration
+
+## 📦 How to Run Locally
+
+1. Clone the repo: `git clone https://github.com/mismumbai-tush/Ginza_Order_Form.git`
+2. Install dependencies: `npm install`
+3. Start dev server: `npm run dev`
+
+---
+© 2025 Ginza Industries Limited. Unauthorized access is prohibited.

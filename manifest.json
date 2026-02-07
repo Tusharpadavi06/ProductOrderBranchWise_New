@@ -1,0 +1,22 @@
+
+{
+  "short_name": "Ginza Portal",
+  "name": "Ginza Industries Order Management",
+  "icons": [
+    {
+      "src": "https://www.ginzalimited.com/cdn/shop/files/Ginza_logo.jpg?v=1668509673&width=192",
+      "type": "image/jpeg",
+      "sizes": "192x192"
+    },
+    {
+      "src": "https://www.ginzalimited.com/cdn/shop/files/Ginza_logo.jpg?v=1668509673&width=512",
+      "type": "image/jpeg",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "theme_color": "#4f46e5",
+  "description": "Authorized Order Management Portal for Ginza Industries Staff."
+}
