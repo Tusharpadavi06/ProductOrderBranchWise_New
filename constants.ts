@@ -39,6 +39,7 @@ export const CATEGORIES = [
   'EMBROIDERY', 
   'EYE_N_HOOK', 
   'PRINTING', 
+  'SACHIN KNITTING'
   'TLU', 
   'VAU', 
   'WARP(UDHANA)'
