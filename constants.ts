@@ -1,6 +1,6 @@
 
 export const BRANCHES = [
-  'Ahmedabad', 'Banglore', 'Delhi', 'Jaipur', 'Kolkata', 'Ludhiana', 'Mumbai', 'Surat', 'Tirupur', 'Ulhasnagar'
+  'Ahmedabad', 'Bangalore', 'Delhi', 'Jaipur', 'Kolkata', 'Ludhiana', 'Mumbai', 'Surat', 'Tirupur', 'Ulhasnagar'
 ].sort();
 
 // Mapping branches to their respective head emails for approvals as provided
@@ -23,9 +23,9 @@ export const BRANCH_SALES_PERSONS: Record<string, string[]> = {
   Kolkata: ['Rajesh Jain', 'Kolkata HO'],
   Jaipur: ['Durgesh Bhati', 'Jaipur HO'],
   Delhi: ['Lalit Maroo', 'Anish Jain', 'Suresh Nautiyal', 'Rahul Vashishtha', 'Mohit Sharma', 'Delhi HO'],
-  Bangalore: ['Hari Prasad', 'Tarachand', 'Bangalore HO'],
-  Tirupur: ['Alexander Pushkin', 'Subramanian', 'Mani Maran', 'Tirupur HO'],
-  Ahmedabad: ['Ravindra Kaushik', 'Ahmedabad HO'],
+  Bangalore: ['Hari Prasad', 'Bangalore HO', 'Tarachand'],
+  Tirupur: ['Alexander Pushkin', 'R. Subramanian', 'Ravi Varman', 'Subramani', 'Tirupur HO'],
+  Ahmedabad: ['ravindra kaushik', 'Ahmedabad HO'],
   Surat: ['Anil Marthe', 'Raghuveer Darbar', 'Sailesh Pathak', 'Vanraj Darbar', 'Surat HO'],
   Ludhiana: ['Ludhiana HO']
 };
@@ -36,7 +36,7 @@ export const CATEGORIES = [
   'CUP', 
   'DELHI',
   'ELASTIC', 
-  'EMBROIDARY', 
+  'EMBROIDERY', 
   'EYE_N_HOOK', 
   'PRINTING', 
   'TLU', 
