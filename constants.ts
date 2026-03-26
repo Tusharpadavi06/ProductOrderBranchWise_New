@@ -6,7 +6,7 @@ export const BRANCHES = [
 // Mapping branches to their respective head emails for approvals as provided
 export const BRANCH_CONFIG: Record<string, { headEmail: string, headName: string }> = {
   Ahmedabad: { headEmail: 'ahmedabad@ginzalimited.com', headName: 'Ravindra kaushik' },
-  Banglore: { headEmail: 'murali.krishna@ginzalimited.com', headName: 'Murali Krishna' },
+  Bangalore: { headEmail: 'murali.krishna@ginzalimited.com', headName: 'Murali Krishna' },
   Delhi: { headEmail: 'vinay.chhajer@ginzalimited.com', headName: 'Vinay Chhajer' },
   Jaipur: { headEmail: 'vishal.ambhore@ginzalimited.com', headName: 'Vishal Ambhore' }, 
   Kolkata: { headEmail: 'vishal.ambhore@ginzalimited.com', headName: 'Vishal Ambhore' },
@@ -23,9 +23,9 @@ export const BRANCH_SALES_PERSONS: Record<string, string[]> = {
   Kolkata: ['Rajesh Jain', 'Kolkata HO'],
   Jaipur: ['Durgesh Bhati', 'Jaipur HO'],
   Delhi: ['Lalit Maroo', 'Anish Jain', 'Suresh Nautiyal', 'Rahul Vashishtha', 'Mohit Sharma', 'Delhi HO'],
-  Banglore: ['Balasubramanyam', 'Tarachand', 'Bangalore HO'],
+  Bangalore: ['Hari Prasad', 'Tarachand', 'Bangalore HO'],
   Tirupur: ['Alexander Pushkin', 'Subramanian', 'Mani Maran', 'Tirupur HO'],
-  Ahmedabad: ['ravindra kaushik', 'Ahmedabad HO'],
+  Ahmedabad: ['Ravindra Kaushik', 'Ahmedabad HO'],
   Surat: ['Anil Marthe', 'Raghuveer Darbar', 'Sailesh Pathak', 'Vanraj Darbar', 'Surat HO'],
   Ludhiana: ['Ludhiana HO']
 };
